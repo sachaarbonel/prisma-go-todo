@@ -1,13 +1,25 @@
 # go-graphql
 
-## Install
+## Prerequistes
+- Go installed
+- Symlinks (not required but convenient) 
+## Getting started
 
 ```sh
-dep ensure
+~ $ git clone https://github.com/Sach97/prisma-go-todo/edit/master/README.md 
+~ $ cd prisma-go-todo
+prisma-go-todo $ docker-compose up
+prisma-go-todo $ cd prisma
+prisma $ prisma deploy
+prisma $ cd ..
+prisma-go-todo $ go run server/*.go # Install missing dependencies then rerun this command
 ```
 
-## Run server
+## Development Workflow
 
-```sh
-go run ./server
-```
+- Modify your prisma.datamodel
+- prisma deploy
+- Modify your schema.graphql
+- gqlgen -v (must be executed in your GOPATH)
+- Modify your generated tmp/resolver with the prisma generated types
+- run server

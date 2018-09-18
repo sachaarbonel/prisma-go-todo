@@ -3,12 +3,11 @@
 ## Prerequistes
 - Prisma cli version 1.17 beta installed
 - Go installed
-- Symlinks (not required but convenient) : see https://codebasecamp.com/2017/04/25/Project-Structure-Go.1/ for an explanation
-- ln -s ~/prisma-go-todo ~/go/src/prisma-go-todo
 ## Getting started
 
 ```sh
 ~ $ git clone https://github.com/Sach97/prisma-go-todo/edit/master/README.md 
+~ $ ln -s ~/prisma-go-todo ~/go/src/prisma-go-todo (convenient but not required see https://codebasecamp.com/2017/04/25/Project-Structure-Go.1/ for an explanation of symlinks )
 ~ $ cd prisma-go-todo
 prisma-go-todo $ docker-compose up -d (kill your docker container running with you have errors)
 prisma-go-todo $ cd prisma

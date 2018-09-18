@@ -26,3 +26,6 @@ prisma-go-todo $ go run server/*.go # Install missing dependencies then rerun th
 - gqlgen -v (must be executed in your GOPATH)
 - Modify your generated tmp/resolver with the prisma generated types
 - run server
+
+## TODOs
+- [ ] Auth and permissions

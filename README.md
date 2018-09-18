@@ -1,8 +1,9 @@
 # go-graphql
 
 ## Prerequistes
+- Prisma cli version 1.17 beta installed
 - Go installed
-- Symlinks (not required but convenient) 
+- Symlinks (not required but convenient) : see https://codebasecamp.com/2017/04/25/Project-Structure-Go.1/
 ## Getting started
 
 ```sh

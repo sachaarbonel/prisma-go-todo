@@ -8,7 +8,7 @@ exec:
   filename: server/generated.go
 models:
   Todo:
-    model: prisma-examples/go-graphql/prisma-client.Todo
+    model: prisma-examples/go-graphql/prisma-client.Todo # Personnally I'm using a symlink see https://codebasecamp.com/2017/04/25/Project-Structure-Go.1/
 resolver:
   # goal: copy&paste from generated file
   filename: tmp/resolver.go

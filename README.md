@@ -20,7 +20,7 @@ prisma-go-todo $ go run server/*.go # Install missing dependencies then rerun th
 
 ## Development Workflow
 
-- Modify your prisma.datamodel
+- Modify your datamodel.prisma
 - prisma deploy
 - Modify your schema.graphql
 - gqlgen -v (must be executed in your GOPATH)

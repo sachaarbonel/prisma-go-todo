@@ -5,7 +5,7 @@ package main
 import (
 	"bytes"
 	context "context"
-	prisma "prisma-examples/go-graphql/prisma-client"
+	prisma "prisma-go-todo/prisma-client"
 	strconv "strconv"
 	sync "sync"
 

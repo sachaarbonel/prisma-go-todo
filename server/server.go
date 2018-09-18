@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"prisma-examples/go-graphql/prisma-client"
+	"prisma-go-todo/prisma-client"
 
 	"github.com/99designs/gqlgen/handler"
 )

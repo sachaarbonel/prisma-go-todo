@@ -3,6 +3,8 @@
 ## Prerequistes
 - Prisma cli version 1.17 beta installed
 - Go installed
+- gqlgen installed
+
 ## Getting started
 
 ```sh

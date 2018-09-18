@@ -1,0 +1,15 @@
+type Query {
+  todo(id: ID!): Todo
+  #lastTodo: Todo
+  todos: [Todo!]!
+}
+
+type Mutation {
+  createTodo(text: String!, done: Boolean): Todo!
+}
+
+type Todo {
+  id: ID!
+  text: String!
+  done: Boolean! #@hasRole(role: OWNER) # only the owner can see if a todo is done
+}

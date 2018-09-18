@@ -1,0 +1,5 @@
+type Todo {
+  id: ID! @unique
+  text: String!
+  done: Boolean! @default(value: "false") #@hasRole(role: OWNER) # only the owner can see if a todo is done
+}
